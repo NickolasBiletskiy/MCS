@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+        <!DOCTYPE hibernate-mapping PUBLIC
+                "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="logic.Specialist" table="specialist">
+    <id column ="idSpecialist" name="id" type="java.lang.Integer">
+        <generator class="increment"/>
+    </id>
+    <property column="Name" name="name" type="java.lang.String"/>
+    <property column="Surname" name="surName" type="java.lang.String"/>
+    <property column="FathersName" name="fathersName" type="java.lang.String"/>
+    <property column="position" name="position" type="java.lang.String"/>
+    <property column="rank" name="rank" type="java.lang.String"/>
+    <bag name="actions" lazy="false">
+        <key column="Specialist_idSpecialist"/>
+        <one-to-many class="logic.Action"/>
+    </bag>
+    <bag name="decisions" lazy="false">
+        <key column="Specialist_idSpecialist"/>
+        <one-to-many class="logic.Decision"/>
+    </bag>
+</class>
+</hibernate-mapping>

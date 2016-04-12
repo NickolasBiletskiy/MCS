@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="logic.ConscriptCard" table="conscriptcard">
+        <id column ="idconscriptCardId" name="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property column="name" name="name" type="java.lang.String"/>
+        <property column="surname" name="surName" type="java.lang.String"/>
+        <property column="fathersName" name="fathersName" type="java.lang.String"/>
+        <property column="phoneNumber" name="phoneNumber" type="java.lang.String"/>
+        <property column="passportData" name="passportData" type="java.lang.String"/>
+        <!--Вставить Медкартку!!!!!!!-->
+        <property column="medicalCardId" name="medicalCardId" type="java.lang.String"/>
+
+    </class>
+</hibernate-mapping>

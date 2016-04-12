@@ -1,0 +1,188 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+
+
+#header_button:hover {
+    background:rgba(105,105,105,0.5); /* Цвет фона под ссылкой */
+    color: #ffe; /* Цвет ссылки */
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+
+#wrapper{
+    width: 1190px;
+    margin: 0 auto;
+
+
+}
+
+#header{
+
+    border-radius: 10px;
+    height: 390px;
+    width: 1190px;
+    background-image: url(../img/header_0.jpg);
+    margin: 0 auto;
+    padding-top:10px;
+    border-radius: 10px;
+}
+
+#header_menu table tr td{
+    margin-left: 50px;
+    width: 230px;
+    height: 35px;
+}
+
+
+#header_button{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background:rgba(0,100,0,0.5);
+    margin-top: -40px;
+}
+
+#header_button h2{
+    color: #ffffee;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#header img{
+    padding-left: 20px;
+    padding-top: 30px;
+    width:300px;
+    height:300px;
+}
+
+#header_menu{
+    margin-left: 400px;
+    margin-top: -40px;
+    height: 50px;
+    width: 700px;
+}
+
+#header_menu table tr td{
+    width: 230px;
+    height: 55px;
+}
+
+
+#header_text {
+    height: 200px;
+    width: 805px;
+    margin: 50 auto;
+    float: right;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+#header_text h1 {
+    color: green;
+    font-family: arial;
+    font-size: 35pt;
+}
+
+#header_text h2{
+    color:white;
+    font-family: arial;
+    font-size: 25pt;
+}
+.left{
+    background: rgba(131, 139, 131, 0.5);
+    border-radius: 10px;
+}
+#left_column{
+
+
+    padding: 20px;
+    height: 56vh;
+    float: left;
+    width: 280px;
+
+    height: auto;
+    height: inherit;
+}
+
+#main_content{
+
+    border-radius: 10px;
+    float: left;
+    width: 860px;
+    color: white;
+    background: rgba(105, 139, 105, 0.5);
+    text-align: center;
+}
+
+#main_content table{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    width: 400px;
+    padding:20px;
+    background-color: rgba(85, 107, 47, 0.9);;
+    border-radius: 10px;
+}
+
+
+
+#main_content table tr td input{
+    height: 20px;
+    width: 50px;
+    margin-top: -20px;
+}
+
+#main_content table tr td h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#main_content table tr td h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer {
+    width: 1190px;
+    height: 50px;
+    background:rgba(46,139,87,0.6);
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#calendar3 {
+    border-radius: 10px;
+    width: 100%;
+    font: monospace;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+}
+#calendar3 thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
+}
+#calendar3 tbody td {
+    color: rgb(44, 86, 122);
+}
+#calendar3 tbody td:nth-child(n+6), #calendar3 .holiday {
+    color: rgb(231, 140, 92);
+}
+#calendar3 tbody td.today {
+    outline: 3px solid red;
+}
+
+
+
+
+
+
